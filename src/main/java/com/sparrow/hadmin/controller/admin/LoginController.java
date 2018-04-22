@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 public class LoginController extends BaseController {
 	@RequestMapping(value = { "/admin/login" }, method = RequestMethod.GET)
 	public String login() {
-
+	System.out.println("fff");
 		return "admin/login";
 	}
 	@RequestMapping(value = { "/admin/login" }, method = RequestMethod.POST)
